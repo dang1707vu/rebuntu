@@ -10790,6 +10790,11 @@ a {
   text-decoration: none;
 }
 
+.animation {
+  font-size: 15px;
+  top: -55px;
+}
+
 .animation:after {
   content: "";
   position: absolute;
@@ -10808,20 +10813,30 @@ a {
   transform-origin: bottom middle;
 }
 
-@media screen and (min-width: 360px) and (max-width: 576px) {
+.logo {
+  width: 90%;
+  margin: auto;
+}
+
+.svg {
+  margin-top: 3px;
+  width: 20px;
+}
+
+@media screen and (min-width: 360px) and (max-width: 575px) {
   .container {
     width: 90%;
   }
   .animation {
     font-size: 20px;
-    top: -40px;
+    top: -55px;
   }
   .svg {
     margin-top: 3px;
     width: 20px;
   }
 }
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 575px) {
   .container {
     width: 90%;
   }
@@ -10846,12 +10861,12 @@ a {
 }
 @media screen and (min-width: 1400px) {
   .animation {
-    font-size: 40px;
+    font-size: 35px;
     top: -40px;
   }
   .svg {
     margin-top: 3px;
-    width: 40px;
+    width: 35px;
   }
 }
 

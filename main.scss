@@ -13,12 +13,18 @@ $bg: #3C3C3B;
     margin-top: 40vh;
 }
 
+//Hover Animation
 .zoom {
     transition: transform .2s;
 }
 
 a {
     text-decoration: none;
+}
+
+.animation {
+    font-size: 15px;
+    top: -55px;
 }
 
 .animation:after {
@@ -39,13 +45,41 @@ a {
     transform-origin: bottom middle;
   }
 
-@media screen and (min-width: 360px) and (max-width: 576px) {
+  //Base Styling
+  .logo {
+    width: 90%;
+    margin: auto;
+  }
+
+  .svg {
+    margin-top: 3px;
+    width: 20px;
+}
+
+//Loop Animation
+// .loop {
+// 	display: inline-block;
+// 	padding-bottom: 3px;
+// }
+// .loop:after {
+// 	content: '';
+// 	display: block;
+// 	margin: auto;
+// 	height: 2px;
+// 	animation: underline 2s infinite;
+// }
+// @keyframes underline {
+//   0% { width: 0%; background-color: #CA9E67;}
+//   100% {width: 100%; background-color: transparent;}
+// }
+
+@media screen and (min-width: 360px) and (max-width: 575px) {
     .container {
         width: 90%;
     }
     .animation {
         font-size: 20px;
-        top: -40px;
+        top: -55px;
     }
     .svg {
         margin-top: 3px;
@@ -53,7 +87,7 @@ a {
     }
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 575px) {
     .container {
         width: 90%;
     }
@@ -80,11 +114,11 @@ a {
 
 @media screen and (min-width: 1400px) {
     .animation {
-        font-size: 40px;
+        font-size: 35px;
         top: -40px;
     }
     .svg {
         margin-top: 3px;
-        width: 40px;
+        width: 35px;
     }
 }
