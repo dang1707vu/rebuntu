@@ -34,14 +34,15 @@ a {
 .animation:after {
     content: '';
     position: absolute;
-    width: 100%;
+    width: 88%;
     transform: scaleX(0);
     height: 2px;
     bottom: 0;
-    left: 0;
+    left: 11%;
     background-color: #CA9E67;
     transform-origin: bottom middle;
     transition: transform 0.45s ease-out 0.0001s;
+    overflow: hidden;
   }
   
   .animation:hover:after {
