@@ -34,11 +34,11 @@ a {
 .animation:after {
     content: '';
     position: absolute;
-    width: 88%;
+    width: 86%;
     transform: scaleX(0);
     height: 2px;
     bottom: 0;
-    left: 11%;
+    left: 12%;
     background-color: #CA9E67;
     transform-origin: bottom middle;
     transition: transform 0.45s ease-out 0.0001s;
