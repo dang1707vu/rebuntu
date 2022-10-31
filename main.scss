@@ -60,23 +60,6 @@ a {
     width: 20px;
 }
 
-//Loop Animation
-// .loop {
-// 	display: inline-block;
-// 	padding-bottom: 3px;
-// }
-// .loop:after {
-// 	content: '';
-// 	display: block;
-// 	margin: auto;
-// 	height: 2px;
-// 	animation: underline 2s infinite;
-// }
-// @keyframes underline {
-//   0% { width: 0%; background-color: #CA9E67;}
-//   100% {width: 100%; background-color: transparent;}
-// }
-
 @media screen and (min-width: 360px) and (max-width: 575px) {
     .container {
         width: 90%;
@@ -113,6 +96,21 @@ a {
     .svg {
         margin-top: 3px;
         width: 30px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .logo {
+        width: 55%;
+        margin: auto;
+      }
+    .animation {
+        font-size: 25px;
+        top: -40px;
+    }
+    .svg {
+        margin-top: 3px;
+        width: 25px;
     }
 }
 
