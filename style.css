@@ -10778,6 +10778,10 @@ textarea.form-control-lg {
   position: relative;
 }
 
+.container {
+  transform: translateZ(0);
+}
+
 .main {
   margin-top: 40vh;
 }

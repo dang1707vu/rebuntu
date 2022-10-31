@@ -9,6 +9,10 @@ $bg: #3C3C3B;
     position: relative;
 }
 
+.container {
+    transform: translateZ(0);
+}
+
 .main {
     margin-top: 40vh;
 }
