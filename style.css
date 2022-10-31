@@ -10774,7 +10774,12 @@ textarea.form-control-lg {
 }
 * {
   font-family: "Jura", sans-serif;
-  background-color: #3C3C3B;
+  background: #3C3C3B;
+  position: relative;
+}
+
+.main {
+  margin-top: 40vh;
 }
 
 /*# sourceMappingURL=style.css.map */
